@@ -19,7 +19,6 @@ with open("courses_enrolled.txt", "r") as f:
         sid, cid, grade = line.strip().split(",")
         courses_enrolled.append({"SID": int(sid), "CID": int(cid), "Grade": grade})
 
-
 # If we were to just have the data inside this program, we would simply use a dictionary to store the data as follows:
 # students = {
 #     1: {'SID': 1, 'Name': 'Alice', 'Program': 'Computer Science', 'Address': '123 Main St'},
